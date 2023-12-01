@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="./Imagens/Logo - Fortes.png" alt="Logo" />
+      </div>
+      <form id="loginForm" action="./login.html" method="GET">
+        <div>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Login"
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Senha"
+          />
+        </div>
+        <div>
+          <a href="#" id="forgotPassword">Esqueceu sua senha?</a>
+        </div>
+        <button type="submit" id="submitButton">Entrar</button>
+      </form>
+      <span id="contactUs">Fale conosco</span>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

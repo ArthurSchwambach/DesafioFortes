@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 250, 242, 1);
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 350px;
+  margin-bottom: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#forgotPassword {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#contactUs {
+  display: block;
+  margin-top: 15px;
+}
+
+#submitButton {
+  transition: transform 0.2s ease-in-out;
+}
+
+#submitButton:hover {
+  transform: scale(1.05);
+}
